@@ -1,0 +1,5 @@
+{
+  "name": "Interview Preparation Bot",
+  "description": "An AI-powered chatbot that simulates technical or behavioral interviews. It provides role-specific questions, evaluates user answers, and offers a final summary with feedback and scoring to help users prepare for job interviews.",
+  "requestFramePermissions": []
+}
