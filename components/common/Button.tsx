@@ -1,3 +1,6 @@
+// Button component created by Aman Pandey
+// Custom reusable button with variants and width options
+
 import React from 'react';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
