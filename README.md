@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🧑‍💻 Interview Preparation Bot
 
-# Run and deploy your AI Studio app
+An AI-powered chatbot that simulates technical and behavioral interviews for job seekers.
+This project is designed to help candidates practice real-world interview questions, receive feedback, and improve their confidence before actual interviews.
 
-This contains everything you need to run your app locally.
+🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1wGOELFLWdvm1zekp1XkjPj_AR0w0mIrM
+Role-based interview simulation (e.g., Software Engineer, Product Manager, Data Analyst).
 
-## Run Locally
+Two modes: Technical (coding, algorithms, system design) & Behavioral (STAR-format questions, leadership, teamwork).
 
-**Prerequisites:**  Node.js
+Smart feedback on clarity, correctness, and completeness.
 
+Real-time interactive Q&A with retry/skip options.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Final summary report highlighting strengths, weaknesses, and suggestions for improvement.
+
+🛠️ Tech Stack
+
+Frontend: React + Vite
+
+AI/Backend: Gemini API (LLM-powered responses)
+
+Deployment: Vercel
+
+⚙️ Setup Instructions
+1. Clone the repository
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+2. Install dependencies
+npm install
+
+3. Configure environment variables
+
+Create a .env file in the root directory and add your Gemini API key:
+
+GEMINI_API_KEY=your_api_key_here
+
+4. Run locally
+npm run dev
+
+5. Deploy
+
+Push the project to GitHub and connect the repo with Vercel for one-click deployment.
+
+📌 Future Enhancements
+
+Add voice-based interview simulation.
+
+Allow users to upload custom question sets (e.g., FAANG-style).
+
+Gamified scoring with leaderboards
