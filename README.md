@@ -2,6 +2,7 @@
 
 An AI-powered chatbot that simulates technical and behavioral interviews for job seekers.
 This project is designed to help candidates practice real-world interview questions, receive feedback, and improve their confidence before actual interviews.
+link of the project :-https://hackathon1-aman-git-main-aman-pandeys-projects-2cf4de35.vercel.app
 
 🚀 Features
 
